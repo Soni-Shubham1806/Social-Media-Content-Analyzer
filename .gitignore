@@ -1,0 +1,28 @@
+# --- Common ---
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+*.tmp
+*.swp
+
+# --- Frontend (React/JS) ---
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# --- Backend (Java Spring Boot / Maven) ---
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.env
+
+# --- VSCode ---
+.vscode/
+
+# --- MacOS ---
+.DS_Store
